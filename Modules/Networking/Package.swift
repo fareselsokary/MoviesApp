@@ -1,4 +1,4 @@
-// swift-tools-version: 6.1
+// swift-tools-version: 5.9
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -13,14 +13,13 @@ let package = Package(
         )
     ],
     dependencies: [
-        // Declare local package dependencies
-        .package(path: "../Core") // Path relative to this package's directory
+        .package(path: "../Core")
     ],
     targets: [
         .target(
             name: "Networking",
             dependencies: [
-                "Core" // Depend on the 'Core' library from the 'Core' package
+                .product(name: "Core", package: "Core")
             ],
             path: "Sources/Networking"
         ),
