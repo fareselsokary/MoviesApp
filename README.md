@@ -12,6 +12,16 @@
 MoviesApp is a simple, enjoyable way to explore movies on your iPhone. You can browse trending titles, search by genre, and see all the details you care about. Plus, it saves your recent results, so you can quickly pick up where you left off anytime.
 
 
+## Table of Contents
+
+* [Getting Started](#getting-started)
+* [Features](#features)
+* [Architecture](#architecture)
+* [Technologies Used](#technologies-used)
+* [Project Structure](#project-structure)
+
+
+
 ## Getting Started
 
 To get a copy of the project up and running on your local machine, follow these steps.
@@ -42,13 +52,6 @@ To get a copy of the project up and running on your local machine, follow these 
 4- **Build and Run**:  
    Select a simulator/device in Xcode and press `Cmd + R`.
 
-## Table of Contents
-
-* [Getting Started](#getting-started)
-* [Features](#features)
-* [Architecture](#architecture)
-* [Technologies Used](#technologies-used)
-* [Project Structure](#project-structure)
 
 
 
